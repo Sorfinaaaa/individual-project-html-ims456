@@ -1,0 +1,269 @@
+<html>
+    <head>
+        <title>My Biodata</title>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+<body bgcolor="#9370DB">
+    <style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #961b96;
+      }
+      
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: #a400d6;
+        color: white;
+      }
+      
+      .topnav .icon {
+        display: none;
+      }
+      
+      @media screen and (max-width: 600px) {
+        .topnav a:not(:first-child) {display: none;}
+        .topnav a.icon {
+          float: right;
+          display: block;
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .topnav.responsive {position: relative;}
+        .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+      }
+      </style>
+      <body>
+      <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active">Home</a>
+          <a href="biodata.html">My Biodata</a>
+          <a href="education.html">My Education</a>
+          <a href="contact.html">My Contact</a>
+          <a href="experience.html">My Experience</a>
+          <a href="gallery.html">Media Gallery</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+        
+        </body>
+
+<body>
+<h1 style="font-family: poppins; text-align: center;">My Biodata</h1>
+<br>
+<p style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">“When you give joy to other people, you get more joy in return. You should give a good thought to happiness that you can give out.”</p>
+
+<style>
+  div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+  }
+  
+  div.scroll-container img {
+    padding: 5px;
+  }
+  </style>
+  </head>
+  <body>
+  
+  
+  <div class="scroll-container">
+    <img src="images/me4.jpg" alt="me" width="450" height="400">
+    <img src="images/me2.jpg" alt="its me" width="450" height="400">
+    <img src="images/me5.jpg" alt="myself" width="450" height="400">
+    <img src="images/me1.jpg" alt="hi" width="450" height="400">
+  </div>
+  
+  <br>
+  <br>
+  <br>
+
+  <style>
+  .accordion {
+    background-color: #266dbe;
+    color: #b4e7ff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #0d5a8d; 
+  }
+  
+  .panel{
+    padding: 0 18px;
+    display: none;
+    background-color: #28cfec;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: lucid bright;
+    text-align: center;
+    color: #2c0e01;  
+  }
+
+  </style>
+  <body>
+
+    <button class="accordion"><b>NAME</b></button>
+    <div class="panel">
+      <p><b>AZYAN SORFINA BINTI MUHAMAD FAUZI</p></b>
+    </div>
+    
+    <button class="accordion"><b>CLASS GROUP</b></button>
+    <div class="panel">
+      <b><p>D1IM2452B</p></b>
+    </div>
+    
+    <button class="accordion"><b>MY AGE</b></button>
+    <div class="panel">
+      <p><b>21 Years Old.</p></b>
+    </div>
+    
+    <button class="accordion"><b>MY NUMBER PHONE</b></button>
+    <div class="panel">
+      <b><p>019-3110528</p></b>
+    </div>
+    
+    <button class="accordion"><b>MY BIRTHDAY DATE</b></button>
+    <div class="panel">
+      <b><p>28 SEPTEMBER 2002</p></b>
+    </div>
+
+    <button class="accordion"><b>MY BIRTH PLACE</b></button>
+    <div class="panel">
+      <b><p>HOSPITAL UMUM SARAWAK, KUCHING SARAWAK.</p></b>
+    </div> 
+
+    <button class="accordion"><b>ADDRESS</b></button>
+    <div class="panel">
+      <p><b>LOT PT 1514 TAMAN PINGGIRAN DAMAI, JALAN JERAM PASU, KAMPUNG PADANG PAK AMAT, 16800, PASIR PUTEH, KELANTAN.</p></b>
+    </div>
+    
+    <button class="accordion"><b>INSTAGRAM NAME</b></button>
+    <div class="panel">
+      <b><p>Azynsrfnaa</p></b>
+    </div>
+    
+    <button class="accordion"><b>ABOUT ME</b></button>
+    <div class="panel">
+      <b>>\<p>i love to watch korean drama and love to cook</p></b>
+    </div>
+    
+    </body>
+    
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script> 
+    </body>
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {box-sizing: border-box}
+    
+    .container {
+      width: 100%;
+      background-color: #ddd;
+    }
+    
+    .skills {
+      text-align: right;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: rgb(36, 31, 31);
+    }
+    
+    .html {width: 65%; background-color: #07c07c;}
+    .css {width: 90%; background-color: #2196F3;}
+    .js {width: 85%; background-color: #f44336;}
+    .php {width: 90%; background-color: #b8a1a1;}
+    </style>
+    </head>
+    <body>
+    
+    <h1 style="text-align: center;">My Skills</h1>
+    
+    <p style="text-align: center;">HTML</p>
+    <div class="container">
+      <div class="skills html">65%</div>
+    </div>
+    
+    <p style="text-align: center;">VIDEO EDITING</p>
+    <div class="container">
+      <div class="skills css">90%</div>
+    </div>
+    
+    <p style="text-align: center;">MICROSOFT WORD</p>
+    <div class="container">
+      <div class="skills js">85%</div>
+    </div>
+    
+    <p style="text-align: center;">CANVA</p>
+    <div class="container">
+      <div class="skills php">90%</div>
+    </div>
+
+</body>
+</html>
